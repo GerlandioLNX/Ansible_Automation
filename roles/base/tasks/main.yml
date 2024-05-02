@@ -1,0 +1,4 @@
+- name: add ssh key for beholder
+  authorized_key:
+    user: beholder
+    key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK24IMellVxvCqyBrneG8Hv3GJ+9b+lo43zkwE+Fnis4 ansible"
